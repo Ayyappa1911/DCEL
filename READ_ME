@@ -1,0 +1,22 @@
+
+consideration:
+
+Each edge has two halfedges
+
+edges are kept in a vector and all the edges are printed according as given through the sample input
+
+This is same with printing Halfedges also
+
+My implementation may not work if the last two inputs in the form (x,y) are same. This is to make the file read issue clear
+
+faces and its edges are printed through the halfedges itteration of the Halfedges
+
+While file reading It only reads the input points in the format x and space then Y and then next line.
+
+Points are considered as doubles not integers (x,y) else it would make a chaos in solving.
+
+The point given is compared with the centriod of the respective face that whether they are on same side or on different side.
+
+There shouldn't be any reflex angles in the face we are itterating.
+
+
